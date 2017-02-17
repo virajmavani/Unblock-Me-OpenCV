@@ -1,6 +1,5 @@
 import numpy as np
 import cv2
-import pyautogui as mouse
 
 centroid_x = 0
 centroid_y = 0
@@ -29,6 +28,91 @@ while(True):
 	centroid_x = (x + x+w)/2
 	centroid_y = (y + y+h)/2
 	cv2.circle(frame, (centroid_x, centroid_y), 2, (0,0,255), 2)
+	
+	if w*h>=19600:
+		if centroid_x<=210 and centroid_y<=160:
+			if centroid_x<=105 and centroid_y<=80:
+				move = 1
+			elif centroid_x>105 and centroid_y<=80:
+				move = 2
+			elif centroid_x<=105 and centroid_y>80:
+				move = 7
+			else:
+				move = 8
+		elif centroid_x<=420 and centroid_y<=160:
+			if centroid_x<=315 and centroid_y<=80:
+				move = 3
+			elif centroid_x>315 and centroid_y<=80:
+				move = 4
+			elif centroid_x<=315 and centroid_y>80:
+				move = 9
+			else:
+				move = 10
+		elif centroid_x<=630 and centroid_y<=160:
+			if centroid_x<=525 and centroid_y<=80:
+				move = 5
+			elif centroid_x>525 and centroid_y<=80:
+				move = 6
+			elif centroid_x<=525 and centroid_y>80:
+				move = 11
+			else:
+				move = 12
+		elif centroid_x<=210 and centroid_y<=320:
+			if centroid_x<=105 and centroid_y<=240:
+				move = 13
+			elif centroid_x>105 and centroid_y<=240:
+				move = 14
+			elif centroid_x<=105 and centroid_y>240:
+				move = 19
+			else:
+				move = 20
+		elif centroid_x<=420 and centroid_y<=320:
+			if centroid_x<=315 and centroid_y<=240:
+				move = 15
+			elif centroid_x>315 and centroid_y<=240:
+				move = 16
+			elif centroid_x<=315 and centroid_y>240:
+				move = 21
+			else:
+				move = 22
+		elif centroid_x<=630 and centroid_y<=320:
+			if centroid_x<=525 and centroid_y<=240:
+				move = 17
+			elif centroid_x>525 and centroid_y<=240:
+				move = 18
+			elif centroid_x<=525 and centroid_y>240:
+				move = 23
+			else:
+				move = 24
+		elif centroid_x<=210 and centroid_y<=480:
+			if centroid_x<=105 and centroid_y<=400:
+				move = 25
+			elif centroid_x>105 and centroid_y<=400:
+				move = 26
+			elif centroid_x<=105 and centroid_y>400:
+				move = 31
+			else:
+				move = 32
+		elif centroid_x<=420 and centroid_y<=480:
+			if centroid_x<=315 and centroid_y<=400:
+				move = 27
+			elif centroid_x>315 and centroid_y<=400:
+				move = 28
+			elif centroid_x<=315 and centroid_y>400:
+				move = 33
+			else:
+				move = 34
+		elif centroid_x<=630 and centroid_y<=480:
+			if centroid_x<=525 and centroid_y<=400:
+				move = 29
+			elif centroid_x>525 and centroid_y<=400:
+				move = 30
+			elif centroid_x<=525 and centroid_y>400:
+				move = 35
+			else:
+				move = 36
+	
+	print "Move:", move
 	
 	cv2.rectangle(frame,(0,0),(105,80),(0,0,0))
 	cv2.rectangle(frame,(106,0),(210,80),(0,0,0))
