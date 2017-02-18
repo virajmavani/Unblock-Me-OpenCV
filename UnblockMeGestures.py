@@ -22,445 +22,443 @@ while(True):
 	if centroid_x<=160 and centroid_y<=160:
 		if centroid_x<=80 and centroid_y<=80:
 			if move == 2:
-				mouse.moveTo(360,190)
-				# mouse.mouseDown()
-				mouse.dragTo(320,190,button="left")
-				# mouse.mouseUp()
+				mouse.moveTo(125,245)
+				mouse.dragTo(50,245,button="left")
 			if move == 7:
-				mouse.moveTo(320,230)
-				mouse.dragTo(320,190,button="left")
+				mouse.moveTo(50,315)
+				mouse.dragTo(50,245,button="left")
 			move = 1
 		elif centroid_x>80 and centroid_y<=80:
 			if move == 1:
-				mouse.moveTo(320,190)
-				mouse.dragTo(360,190,button="left")
+				mouse.moveTo(50,245)
+				mouse.dragTo(125,245,button="left")
 			if move == 8:
-				mouse.moveTo(360,230)
-				mouse.dragTo(360,190,button="left")
+				mouse.moveTo(125,315)
+				mouse.dragTo(125,245,button="left")
 			if move == 3:
-				mouse.moveTo(400,190)
-				mouse.dragTo(360,190,button="left")
+				mouse.moveTo(190,245)
+				mouse.dragTo(125,245,button="left")
 			move = 2
 		elif centroid_x<=80 and centroid_y>80:
 			if move == 1:
-				mouse.moveTo(320,190)
-				mouse.dragTo(320,230,button="left")
+				mouse.moveTo(50,245)
+				mouse.dragTo(50,315,button="left")
 			if move == 8:
-				mouse.moveTo(360,230)
-				mouse.dragTo(320,230,button="left")
+				mouse.moveTo(125,315)
+				mouse.dragTo(50,315,button="left")
 			if move == 13:
-				mouse.moveTo(320,275)
-				mouse.dragTo(320,230,button="left")
+				mouse.moveTo(50,385)
+				mouse.dragTo(50,315,button="left")
 			move = 7
 		else:
 			if move == 2:
-				mouse.moveTo(360,190)
-				mouse.dragTo(360,230,button="left")
+				mouse.moveTo(125,245)
+				mouse.dragTo(125,315,button="left")
 			if move == 7:
-				mouse.moveTo(320,230)
-				mouse.dragTo(360,230,button="left")
+				mouse.moveTo(50,315)
+				mouse.dragTo(125,315,button="left")
 			if move == 9:
-				mouse.moveTo(400,230)
-				mouse.dragTo(360,230,button="left")
+				mouse.moveTo(190,315)
+				mouse.dragTo(125,315,button="left")
 			if move == 14:
-				mouse.moveTo(360,275)
-				mouse.dragTo(360,230,button="left")
+				mouse.moveTo(125,385)
+				mouse.dragTo(125,315,button="left")
 			move = 8
 	elif centroid_x<=320 and centroid_y<=160:
 		if centroid_x<=240 and centroid_y<=80:
 			if move == 2:
-				mouse.moveTo(360,190)
-				mouse.dragTo(400,190,button="left")
+				mouse.moveTo(125,245)
+				mouse.dragTo(190,245,button="left")
 			if move == 4:
-				mouse.moveTo(445,190)
-				mouse.dragTo(400,190,button="left")
+				mouse.moveTo(270,245)
+				mouse.dragTo(190,245,button="left")
 			if move == 9:
-				mouse.moveTo(400,230)
-				mouse.dragTo(400,190,button="left")
+				mouse.moveTo(190,315)
+				mouse.dragTo(190,245,button="left")
 			move = 3
 		elif centroid_x>240 and centroid_y<=80:
 			if move == 3:
-				mouse.moveTo(400,190)
-				mouse.dragTo(445,190,button="left")
+				mouse.moveTo(190,245)
+				mouse.dragTo(270,245,button="left")
 			if move == 5:
-				mouse.moveTo(490,190)
-				mouse.dragTo(445,190,button="left")
+				mouse.moveTo(335,245)
+				mouse.dragTo(270,245,button="left")
 			if move == 10:
-				mouse.moveTo(445,230)
-				mouse.dragTo(445,190,button="left")
+				mouse.moveTo(270,315)
+				mouse.dragTo(270,245,button="left")
 			move = 4
 		elif centroid_x<=240 and centroid_y>80:
 			if move == 3:
-				mouse.moveTo(400,190)
-				mouse.dragTo(400,230,button="left")
+				mouse.moveTo(190,245)
+				mouse.dragTo(190,315,button="left")
 			if move == 8:
-				mouse.moveTo(360,230)
-				mouse.dragTo(400,230,button="left")
+				mouse.moveTo(125,315)
+				mouse.dragTo(190,315,button="left")
 			if move == 10:
-				mouse.moveTo(445,230)
-				mouse.dragTo(400,230,button="left")
+				mouse.moveTo(270,315)
+				mouse.dragTo(190,315,button="left")
 			if move == 15:
-				mouse.moveTo(400,275)
-				mouse.dragTo(400,230,button="left")
+				mouse.moveTo(190,385)
+				mouse.dragTo(190,315,button="left")
 			move = 9
 		else:
 			if move == 4:
-				mouse.moveTo(445,190)
-				mouse.dragTo(445,230,button="left")
+				mouse.moveTo(270,245)
+				mouse.dragTo(270,315,button="left")
 			if move == 9:
-				mouse.moveTo(400,230)
-				mouse.dragTo(445,230,button="left")
+				mouse.moveTo(190,315)
+				mouse.dragTo(270,315,button="left")
 			if move == 11:
-				mouse.moveTo(490,230)
-				mouse.dragTo(445,230,button="left")
+				mouse.moveTo(335,315)
+				mouse.dragTo(270,315,button="left")
 			if move == 16:
-				mouse.moveTo(445,275)
-				mouse.dragTo(445,230,button="left")
+				mouse.moveTo(270,385)
+				mouse.dragTo(270,315,button="left")
 			move = 10
 	elif centroid_x<=480 and centroid_y<=160:
 		if centroid_x<=400 and centroid_y<=80:
 			if move == 4:
-				mouse.moveTo(445,190)
-				mouse.dragTo(490,190,button="left")
+				mouse.moveTo(270,245)
+				mouse.dragTo(335,245,button="left")
 			if move == 6:
-				mouse.moveTo(530,190)
-				mouse.dragTo(490,190,button="left")
+				mouse.moveTo(410,245)
+				mouse.dragTo(335,245,button="left")
 			if move == 11:
-				mouse.moveTo(490,230)
-				mouse.dragTo(490,190,button="left")
+				mouse.moveTo(335,315)
+				mouse.dragTo(335,245,button="left")
 			move = 5
 		elif centroid_x>400 and centroid_y<=80:
 			if move == 5:
-				mouse.moveTo(490,190)
-				mouse.dragTo(530,190,button="left")
+				mouse.moveTo(335,245)
+				mouse.dragTo(410,245,button="left")
 			if move == 12:
-				mouse.moveTo(530,230)
-				mouse.dragTo(530,190,button="left")
+				mouse.moveTo(410,315)
+				mouse.dragTo(410,245,button="left")
 			move = 6
 		elif centroid_x<=400 and centroid_y>80:
 			if move == 5:
-				mouse.moveTo(490,190)
-				mouse.dragTo(490,230,button="left")
+				mouse.moveTo(335,245)
+				mouse.dragTo(335,315,button="left")
 			if move == 10:
-				mouse.moveTo(445,230)
-				mouse.dragTo(490,230,button="left")
+				mouse.moveTo(270,315)
+				mouse.dragTo(335,315,button="left")
 			if move == 12:
-				mouse.moveTo(530,230)
-				mouse.dragTo(490,230,button="left")
+				mouse.moveTo(410,315)
+				mouse.dragTo(335,315,button="left")
 			if move == 17:
-				mouse.moveTo(490,275)
-				mouse.dragTo(490,230,button="left")
+				mouse.moveTo(335,385)
+				mouse.dragTo(335,315,button="left")
 			move = 11
 		else:
 			if move == 6:
-				mouse.moveTo(530,190)
-				mouse.dragTo(530,230,button="left")
+				mouse.moveTo(410,245)
+				mouse.dragTo(410,315,button="left")
 			if move == 11:
-				mouse.moveTo(490,230)
-				mouse.dragTo(530,230,button="left")
+				mouse.moveTo(335,315)
+				mouse.dragTo(410,315,button="left")
 			if move == 18:
-				mouse.moveTo(530,275)
-				mouse.dragTo(530,230,button="left")
+				mouse.moveTo(410,385)
+				mouse.dragTo(410,315,button="left")
 			move = 12
 	elif centroid_x<=160 and centroid_y<=320:
 		if centroid_x<=80 and centroid_y<=240:
 			if move == 7:
-				mouse.moveTo(320,230)
-				mouse.dragTo(320,275,button="left")
+				mouse.moveTo(50,315)
+				mouse.dragTo(50,385,button="left")
 			if move == 14:
-				mouse.moveTo(360,275)
-				mouse.dragTo(320,275,button="left")
+				mouse.moveTo(125,385)
+				mouse.dragTo(50,385,button="left")
 			if move == 19:
-				mouse.moveTo(320,320)
-				mouse.dragTo(320,275,button="left")
+				mouse.moveTo(50,460)
+				mouse.dragTo(50,385,button="left")
 			move = 13
 		elif centroid_x>80 and centroid_y<=240:
 			if move == 8:
-				mouse.moveTo(360,230)
-				mouse.dragTo(360,275,button="left")
+				mouse.moveTo(125,315)
+				mouse.dragTo(125,385,button="left")
 			if move == 13:
-				mouse.moveTo(320,275)
-				mouse.dragTo(360,275,button="left")
+				mouse.moveTo(50,385)
+				mouse.dragTo(125,385,button="left")
 			if move == 15:
-				mouse.moveTo(400,275)
-				mouse.dragTo(360,275,button="left")
+				mouse.moveTo(190,385)
+				mouse.dragTo(125,385,button="left")
 			if move == 20:
-				mouse.moveTo(360,320)
-				mouse.dragTo(360,275,button="left")
+				mouse.moveTo(125,460)
+				mouse.dragTo(125,385,button="left")
 			move = 14
 		elif centroid_x<=80 and centroid_y>240:
 			if move == 13:
-				mouse.moveTo(320,275)
-				mouse.dragTo(320,320,button="left")
+				mouse.moveTo(50,385)
+				mouse.dragTo(50,460,button="left")
 			if move == 20:
-				mouse.moveTo(360,320)
-				mouse.dragTo(320,320,button="left")
+				mouse.moveTo(125,460)
+				mouse.dragTo(50,460,button="left")
 			if move == 25:
-				mouse.moveTo(320,360)
-				mouse.dragTo(320,320,button="left")
+				mouse.moveTo(50,535)
+				mouse.dragTo(50,460,button="left")
 			move = 19
 		else:
 			if move == 14:
-				mouse.moveTo(360,275)
-				mouse.dragTo(360,320,button="left")
+				mouse.moveTo(125,385)
+				mouse.dragTo(125,460,button="left")
 			if move == 19:
-				mouse.moveTo(320,320)
-				mouse.dragTo(360,320,button="left")
+				mouse.moveTo(50,460)
+				mouse.dragTo(125,460,button="left")
 			if move == 21:
-				mouse.moveTo(400,320)
-				mouse.dragTo(360,320,button="left")
+				mouse.moveTo(190,460)
+				mouse.dragTo(125,460,button="left")
 			if move == 26:
-				mouse.moveTo(360,360)
-				mouse.dragTo(360,320,button="left")
+				mouse.moveTo(125,535)
+				mouse.dragTo(125,460,button="left")
 			move = 20
 	elif centroid_x<=320 and centroid_y<=320:
 		if centroid_x<=240 and centroid_y<=240:
 			if move == 9:
-				mouse.moveTo(400,230)
-				mouse.dragTo(400,275,button="left")
+				mouse.moveTo(190,315)
+				mouse.dragTo(190,385,button="left")
 			if move == 14:
-				mouse.moveTo(360,275)
-				mouse.dragTo(400,275,button="left")
+				mouse.moveTo(125,385)
+				mouse.dragTo(190,385,button="left")
 			if move == 16:
-				mouse.moveTo(445,275)
-				mouse.dragTo(400,275,button="left")
+				mouse.moveTo(270,385)
+				mouse.dragTo(190,385,button="left")
 			if move == 21:
-				mouse.moveTo(400,320)
-				mouse.dragTo(400,275,button="left")
+				mouse.moveTo(190,460)
+				mouse.dragTo(190,385,button="left")
 			move = 15
 		elif centroid_x>240 and centroid_y<=240:
 			if move == 10:
-				mouse.moveTo(445,230)
-				mouse.dragTo(445,275,button="left")
+				mouse.moveTo(270,315)
+				mouse.dragTo(270,385,button="left")
 			if move == 15:
-				mouse.moveTo(400,275)
-				mouse.dragTo(445,275,button="left")
+				mouse.moveTo(190,385)
+				mouse.dragTo(270,385,button="left")
 			if move == 17:
-				mouse.moveTo(490,275)
-				mouse.dragTo(445,275,button="left")
+				mouse.moveTo(335,385)
+				mouse.dragTo(270,385,button="left")
 			if move == 22:
-				mouse.moveTo(445,320)
-				mouse.dragTo(445,275,button="left")
+				mouse.moveTo(270,460)
+				mouse.dragTo(270,385,button="left")
 			move = 16
 		elif centroid_x<=240 and centroid_y>240:
 			if move == 15:
-				mouse.moveTo(400,275)
-				mouse.dragTo(400,320,button="left")
+				mouse.moveTo(190,385)
+				mouse.dragTo(190,460,button="left")
 			if move == 20:
-				mouse.moveTo(360,320)
-				mouse.dragTo(400,320,button="left")
+				mouse.moveTo(125,460)
+				mouse.dragTo(190,460,button="left")
 			if move == 22:
-				mouse.moveTo(445,320)
-				mouse.dragTo(400,320,button="left")
+				mouse.moveTo(270,460)
+				mouse.dragTo(190,460,button="left")
 			if move == 27:
-				mouse.moveTo(400,360)
-				mouse.dragTo(400,320,button="left")
+				mouse.moveTo(190,535)
+				mouse.dragTo(190,460,button="left")
 			move = 21
 		else:
 			if move == 16:
-				mouse.moveTo(445,275)
-				mouse.dragTo(445,320,button="left")
+				mouse.moveTo(270,385)
+				mouse.dragTo(270,460,button="left")
 			if move == 21:
-				mouse.moveTo(400,320)
-				mouse.dragTo(445,320,button="left")
+				mouse.moveTo(190,460)
+				mouse.dragTo(270,460,button="left")
 			if move == 23:
-				mouse.moveTo(490,320)
-				mouse.dragTo(445,320,button="left")
+				mouse.moveTo(335,460)
+				mouse.dragTo(270,460,button="left")
 			if move == 28:
-				mouse.moveTo(445,360)
-				mouse.dragTo(445,320,button="left")
+				mouse.moveTo(270,535)
+				mouse.dragTo(270,460,button="left")
 			move = 22
 	elif centroid_x<=480 and centroid_y<=320:
 		if centroid_x<=400 and centroid_y<=240:
 			if move == 11:
-				mouse.moveTo(490,230)
-				mouse.dragTo(490,275,button="left")
+				mouse.moveTo(335,315)
+				mouse.dragTo(335,385,button="left")
 			if move == 16:
-				mouse.moveTo(445,275)
-				mouse.dragTo(490,275,button="left")
+				mouse.moveTo(270,385)
+				mouse.dragTo(335,385,button="left")
 			if move == 18:
-				mouse.moveTo(530,275)
-				mouse.dragTo(490,275,button="left")
+				mouse.moveTo(410,385)
+				mouse.dragTo(335,385,button="left")
 			if move == 23:
-				mouse.moveTo(490,320)
-				mouse.dragTo(490,275,button="left")
+				mouse.moveTo(335,460)
+				mouse.dragTo(335,385,button="left")
 			move = 17
 		elif centroid_x>400 and centroid_y<=240:
 			if move == 12:
-				mouse.moveTo(530,230)
-				mouse.dragTo(530,275,button="left")
+				mouse.moveTo(410,315)
+				mouse.dragTo(410,385,button="left")
 			if move == 17:
-				mouse.moveTo(490,275)
-				mouse.dragTo(530,275,button="left")
+				mouse.moveTo(335,385)
+				mouse.dragTo(410,385,button="left")
 			if move == 24:
-				mouse.moveTo(530,320)
-				mouse.dragTo(530,275,button="left")
+				mouse.moveTo(410,460)
+				mouse.dragTo(410,385,button="left")
 			move = 18
 		elif centroid_x<=400 and centroid_y>240:
 			if move == 17:
-				mouse.moveTo(490,275)
-				mouse.dragTo(490,320,button="left")
+				mouse.moveTo(335,385)
+				mouse.dragTo(335,460,button="left")
 			if move == 22:
-				mouse.moveTo(445,320)
-				mouse.dragTo(490,320,button="left")
+				mouse.moveTo(270,460)
+				mouse.dragTo(335,460,button="left")
 			if move == 24:
-				mouse.moveTo(530,320)
-				mouse.dragTo(490,320,button="left")
+				mouse.moveTo(410,460)
+				mouse.dragTo(335,460,button="left")
 			if move == 29:
-				mouse.moveTo(490,360)
-				mouse.dragTo(490,320,button="left")
+				mouse.moveTo(335,535)
+				mouse.dragTo(335,460,button="left")
 			move = 23
 		else:
 			if move == 18:
-				mouse.moveTo(530,275)
-				mouse.dragTo(530,320,button="left")
+				mouse.moveTo(410,385)
+				mouse.dragTo(410,460,button="left")
 			if move == 23:
-				mouse.moveTo(490,320)
-				mouse.dragTo(530,320,button="left")
+				mouse.moveTo(335,460)
+				mouse.dragTo(410,460,button="left")
 			if move == 30:
-				mouse.moveTo(530,360)
-				mouse.dragTo(530,320,button="left")
+				mouse.moveTo(410,535)
+				mouse.dragTo(410,460,button="left")
 			move = 24
 	elif centroid_x<=160 and centroid_y<=480:
 		if centroid_x<=80 and centroid_y<=400:
 			if move == 19:
-				mouse.moveTo(320,320)
-				mouse.dragTo(320,360,button="left")
+				mouse.moveTo(50,460)
+				mouse.dragTo(50,535,button="left")
 			if move == 26:
-				mouse.moveTo(360,360)
-				mouse.dragTo(320,360,button="left")
+				mouse.moveTo(125,535)
+				mouse.dragTo(50,535,button="left")
 			if move == 31:
-				mouse.moveTo(320,405)
-				mouse.dragTo(320,360,button="left")
+				mouse.moveTo(50,605)
+				mouse.dragTo(50,535,button="left")
 			move = 25
 		elif centroid_x>80 and centroid_y<=400:
 			if move == 20:
-				mouse.moveTo(360,320)
-				mouse.dragTo(360,360,button="left")
+				mouse.moveTo(125,460)
+				mouse.dragTo(125,535,button="left")
 			if move == 25:
-				mouse.moveTo(320,360)
-				mouse.dragTo(360,360,button="left")
+				mouse.moveTo(50,535)
+				mouse.dragTo(125,535,button="left")
 			if move == 27:
-				mouse.moveTo(400,360)
-				mouse.dragTo(360,360,button="left")
+				mouse.moveTo(190,535)
+				mouse.dragTo(125,535,button="left")
 			if move == 32:
-				mouse.moveTo(360,405)
-				mouse.dragTo(360,360,button="left")
+				mouse.moveTo(125,605)
+				mouse.dragTo(125,535,button="left")
 			move = 26
 		elif centroid_x<=80 and centroid_y>400:
 			if move == 25:
-				mouse.moveTo(320,360)
-				mouse.dragTo(320,405,button="left")
+				mouse.moveTo(50,535)
+				mouse.dragTo(50,605,button="left")
 			if move == 32:
-				mouse.moveTo(360,405)
-				mouse.dragTo(320,405,button="left")
+				mouse.moveTo(125,605)
+				mouse.dragTo(50,605,button="left")
 			move = 31
 		else:
 			if move == 26:
-				mouse.moveTo(360,360)
-				mouse.dragTo(360,405,button="left")
+				mouse.moveTo(125,535)
+				mouse.dragTo(125,605,button="left")
 			if move == 31:
-				mouse.moveTo(320,405)
-				mouse.dragTo(360,405,button="left")
+				mouse.moveTo(50,605)
+				mouse.dragTo(125,605,button="left")
 			if move == 33:
-				mouse.moveTo(400,405)
-				mouse.dragTo(360,405,button="left")
+				mouse.moveTo(190,605)
+				mouse.dragTo(125,605,button="left")
 			move = 32
 	elif centroid_x<=320 and centroid_y<=480:
 		if centroid_x<=240 and centroid_y<=400:
 			if move == 21:
-				mouse.moveTo(400,320)
-				mouse.dragTo(400,360,button="left")
+				mouse.moveTo(190,460)
+				mouse.dragTo(190,535,button="left")
 			if move == 26:
-				mouse.moveTo(360,360)
-				mouse.dragTo(400,360,button="left")
+				mouse.moveTo(125,535)
+				mouse.dragTo(190,535,button="left")
 			if move == 28:
-				mouse.moveTo(445,360)
-				mouse.dragTo(400,360,button="left")
+				mouse.moveTo(270,535)
+				mouse.dragTo(190,535,button="left")
 			if move == 33:
-				mouse.moveTo(400,405)
-				mouse.dragTo(400,360,button="left")
+				mouse.moveTo(190,605)
+				mouse.dragTo(190,535,button="left")
 			move = 27
 		elif centroid_x>240 and centroid_y<=400:
 			if move == 22:
-				mouse.moveTo(445,320)
-				mouse.dragTo(445,360,button="left")
+				mouse.moveTo(270,460)
+				mouse.dragTo(270,535,button="left")
 			if move == 27:
-				mouse.moveTo(400,360)
-				mouse.dragTo(445,360,button="left")
+				mouse.moveTo(190,535)
+				mouse.dragTo(270,535,button="left")
 			if move == 29:
-				mouse.moveTo(490,360)
-				mouse.dragTo(445,360,button="left")
+				mouse.moveTo(335,535)
+				mouse.dragTo(270,535,button="left")
 			if move == 34:
-				mouse.moveTo(445,405)
-				mouse.dragTo(445,360,button="left")
+				mouse.moveTo(270,605)
+				mouse.dragTo(270,535,button="left")
 			move = 28
 		elif centroid_x<=240 and centroid_y>400:
 			if move == 27:
-				mouse.moveTo(400,360)
-				mouse.dragTo(400,405,button="left")
+				mouse.moveTo(190,535)
+				mouse.dragTo(190,605,button="left")
 			if move == 32:
-				mouse.moveTo(360,405)
-				mouse.dragTo(400,405,button="left")
+				mouse.moveTo(125,605)
+				mouse.dragTo(190,605,button="left")
 			if move == 34:
-				mouse.moveTo(445,405)
-				mouse.dragTo(400,405,button="left")
+				mouse.moveTo(270,605)
+				mouse.dragTo(190,605,button="left")
 			move = 33
 		else:
 			if move == 28:
-				mouse.moveTo(445,360)
-				mouse.dragTo(445,405,button="left")
+				mouse.moveTo(270,535)
+				mouse.dragTo(270,605,button="left")
 			if move == 33:
-				mouse.moveTo(400,405)
-				mouse.dragTo(445,405,button="left")
+				mouse.moveTo(190,605)
+				mouse.dragTo(270,605,button="left")
 			if move == 35:
-				mouse.moveTo(490,405)
-				mouse.dragTo(445,405,button="left")
+				mouse.moveTo(335,605)
+				mouse.dragTo(270,605,button="left")
 			move = 34
 	elif centroid_x<=480 and centroid_y<=480:
 		if centroid_x<=400 and centroid_y<=400:
 			if move == 23:
-				mouse.moveTo(490,320)
-				mouse.dragTo(490,360,button="left")
+				mouse.moveTo(335,460)
+				mouse.dragTo(335,535,button="left")
 			if move == 28:
-				mouse.moveTo(445,360)
-				mouse.dragTo(490,360,button="left")
+				mouse.moveTo(270,535)
+				mouse.dragTo(335,535,button="left")
 			if move == 30:
-				mouse.moveTo(530,360)
-				mouse.dragTo(490,360,button="left")
+				mouse.moveTo(410,535)
+				mouse.dragTo(335,535,button="left")
 			if move == 35:
-				mouse.moveTo(490,405)
-				mouse.dragTo(490,360,button="left")
+				mouse.moveTo(335,605)
+				mouse.dragTo(335,535,button="left")
 			move = 29
 		elif centroid_x>400 and centroid_y<=400:
 			if move == 24:
-				mouse.moveTo(530,320)
-				mouse.dragTo(530,360,button="left")
+				mouse.moveTo(410,460)
+				mouse.dragTo(410,535,button="left")
 			if move == 29:
-				mouse.moveTo(490,360)
-				mouse.dragTo(530,360,button="left")
+				mouse.moveTo(335,535)
+				mouse.dragTo(410,535,button="left")
 			if move == 36:
-				mouse.moveTo(530,405)
-				mouse.dragTo(530,360,button="left")
+				mouse.moveTo(410,605)
+				mouse.dragTo(410,535,button="left")
 			move = 30
 		elif centroid_x<=400 and centroid_y>400:
 			if move == 29:
-				mouse.moveTo(490,360)
-				mouse.dragTo(490,405,button="left")
+				mouse.moveTo(335,535)
+				mouse.dragTo(335,605,button="left")
 			if move == 34:
-				mouse.moveTo(445,405)
-				mouse.dragTo(490,405,button="left")
+				mouse.moveTo(270,605)
+				mouse.dragTo(335,605,button="left")
 			if move == 36:
-				mouse.moveTo(530,405)
-				mouse.dragTo(490,405,button="left")
+				mouse.moveTo(410,605)
+				mouse.dragTo(335,605,button="left")
 			move = 35
 		else:
 			if move == 30:
-				mouse.moveTo(530,360)
-				mouse.dragTo(530,405,button="left")
+				mouse.moveTo(410,535)
+				mouse.dragTo(410,605,button="left")
 			if move == 35:
-				mouse.moveTo(490,405)
-				mouse.dragTo(530,405,button="left")
+				mouse.moveTo(335,605)
+				mouse.dragTo(410,605,button="left")
 			move = 36
 	
 	print "Move:", move
