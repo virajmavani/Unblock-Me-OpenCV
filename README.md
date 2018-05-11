@@ -1,2 +1,2 @@
-# Unblock-Me---OpenCV
+# Unblock-Me-OpenCV
 The game Unblock Me using gestures.
